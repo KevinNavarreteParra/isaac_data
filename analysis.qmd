@@ -1,0 +1,26 @@
+---
+title: "Analysis"
+engine: knitr
+---
+
+This is an example of how you'd add a page to the site with some inline code. Notice that the _quarto.yml file needs to be updated to reflect this page's existence.
+
+## Example
+
+```{r}
+#| label: load-data
+#| message: false
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+d <- read_csv("data/example_data.csv", show_col_types = FALSE)
+```
+
+```{r}
+#| label: fig-example
+#| fig-cap: "Placeholder chart — replace with a real figure once there's real data."
+ggplot(d, aes(x = id, y = value)) +
+  geom_col() +
+  theme_minimal()
+```

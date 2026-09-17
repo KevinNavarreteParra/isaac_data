@@ -2,6 +2,12 @@
 title: "ISAAC"
 ---
 
-This is a Quarto website.
+## About this project
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This site hosts data and analysis for **[paper title placeholder]**. It provides:
+
+- **[Data](data.qmd)** — browse and download the data directly.
+- **[Analysis](analysis.qmd)** — a short, static write-up of some patterns in the data.
+- **[About](about.qmd)** — the paper, authors, and how to cite this work.
+
+> This paragraph is a placeholder. Replace it with a short summary of the paper/project once it's ready.

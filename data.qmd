@@ -1,0 +1,30 @@
+---
+title: "Data"
+---
+
+## Datasets
+
+The table below lists the data files available in this repository. Click a file name to download it directly.
+
+| File | Description | Format | Download |
+|---|---|---|---|
+| `example_data.csv` | Placeholder example file — replace this row (and the file in `data/`) with your real data. | CSV | [download](data/example_data.csv) |
+
+**To add a new dataset:**
+
+1. Put the file in the `data/` folder in the repository.
+2. Add a row to the table above with its name, a short description, and a link written as `[download](data/your_file.csv)`.
+3. Commit (or use the **Edit this page** link at the bottom of this page) — the site rebuilds and republishes itself automatically.
+
+## Data dictionary
+
+Describe each variable in your dataset(s) here so visitors know what they're looking at.
+
+| Variable | Description | Type |
+|---|---|---|
+| `id` | Placeholder — describe this variable | integer |
+| `value` | Placeholder — describe this variable | numeric |
+
+## Citation
+
+If you use this data, please cite the paper — see [About](about.qmd) for the citation.
