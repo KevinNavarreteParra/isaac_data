@@ -6,6 +6,8 @@
 
 Packages are pinned in `renv.lock`. Github restores from it automatically, no need to touch it unless you add a package.
 
+Pre-installed for everyone (no need to install these yourself): `tidyverse`, `ggplot2`, `WDI`, `texreg`, `haven`, `readxl`, `countrycode`, `modelsummary`.
+
 - Restore pinned packages locally:
   ```r
   renv::restore()
