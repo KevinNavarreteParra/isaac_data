@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Placeholder — add the paper title, abstract, and a link (DOI or preprint) once available."
+  },
+  {
+    "objectID": "about.html#the-paper",
+    "href": "about.html#the-paper",
+    "title": "About",
+    "section": "",
+    "text": "Placeholder — add the paper title, abstract, and a link (DOI or preprint) once available."
+  },
+  {
+    "objectID": "about.html#authors",
+    "href": "about.html#authors",
+    "title": "About",
+    "section": "Authors",
+    "text": "Authors\n\nAuthor One\nAuthor Two\nAuthor Three"
+  },
+  {
+    "objectID": "about.html#citation",
+    "href": "about.html#citation",
+    "title": "About",
+    "section": "Citation",
+    "text": "Citation\nPlaceholder citation.\nAuthor One and Author Two. YEAR. \"Paper Title.\" Journal Name."
+  },
+  {
+    "objectID": "about.html#license",
+    "href": "about.html#license",
+    "title": "About",
+    "section": "License",
+    "text": "License\nThe data and text on this site are licensed under CC BY 4.0. You are free to share and adapt it, provided you give appropriate credit."
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "This is an example of how you’d add a page to the site with some inline code. Notice that the _quarto.yml file needs to be updated to reflect this page’s existence."
+  },
+  {
+    "objectID": "analysis.html#example",
+    "href": "analysis.html#example",
+    "title": "Analysis",
+    "section": "Example",
+    "text": "Example\n\nlibrary(readr)\nlibrary(dplyr)\nlibrary(ggplot2)\n\nd &lt;- read_csv(\"data/example_data.csv\", show_col_types = FALSE)\n\n\nggplot(d, aes(x = id, y = value)) +\n  geom_col() +\n  theme_minimal()\n\n\n\n\n\n\n\nFigure 1: Placeholder chart — replace with a real figure once there’s real data."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ISAAC",
+    "section": "",
+    "text": "This site hosts data and analysis for [paper title placeholder]. It provides:\n\nData — browse and download the data directly.\nAnalysis — a short, static write-up of some patterns in the data.\nAbout — the paper, authors, and how to cite this work.\n\n\nThis paragraph is a placeholder. Replace it with a short summary of the paper/project once it’s ready."
+  },
+  {
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "ISAAC",
+    "section": "",
+    "text": "This site hosts data and analysis for [paper title placeholder]. It provides:\n\nData — browse and download the data directly.\nAnalysis — a short, static write-up of some patterns in the data.\nAbout — the paper, authors, and how to cite this work.\n\n\nThis paragraph is a placeholder. Replace it with a short summary of the paper/project once it’s ready."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "The table below lists the data files available in this repository. Click a file name to download it directly.\n\n\n\nFile\nDescription\nFormat\nDownload\n\n\n\n\nexample_data.csv\nPlaceholder example file — replace this row (and the file in data/) with your real data.\nCSV\ndownload\n\n\n\nTo add a new dataset:\n\nPut the file in the data/ folder in the repository.\nAdd a row to the table above with its name, a short description, and a link written as [download](data/your_file.csv).\nCommit (or use the Edit this page link at the bottom of this page) — the site rebuilds and republishes itself automatically."
+  },
+  {
+    "objectID": "data.html#datasets",
+    "href": "data.html#datasets",
+    "title": "Data",
+    "section": "",
+    "text": "The table below lists the data files available in this repository. Click a file name to download it directly.\n\n\n\nFile\nDescription\nFormat\nDownload\n\n\n\n\nexample_data.csv\nPlaceholder example file — replace this row (and the file in data/) with your real data.\nCSV\ndownload\n\n\n\nTo add a new dataset:\n\nPut the file in the data/ folder in the repository.\nAdd a row to the table above with its name, a short description, and a link written as [download](data/your_file.csv).\nCommit (or use the Edit this page link at the bottom of this page) — the site rebuilds and republishes itself automatically."
+  },
+  {
+    "objectID": "data.html#data-dictionary",
+    "href": "data.html#data-dictionary",
+    "title": "Data",
+    "section": "Data dictionary",
+    "text": "Data dictionary\nDescribe each variable in your dataset(s) here so visitors know what they’re looking at.\n\n\n\nVariable\nDescription\nType\n\n\n\n\nid\nPlaceholder — describe this variable\ninteger\n\n\nvalue\nPlaceholder — describe this variable\nnumeric"
+  },
+  {
+    "objectID": "data.html#citation",
+    "href": "data.html#citation",
+    "title": "Data",
+    "section": "Citation",
+    "text": "Citation\nIf you use this data, please cite the paper — see About for the citation."
+  }
+]
